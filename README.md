@@ -11,5 +11,4 @@ Detalles del enunciado en el programa de la asignatura.
 Nombre Usuario Laboratorio: Jasc
 Resumen Peculiaridades: Diseño Limpio con bootstrap, linea de distancia.
 Funcionalidades Opcionales: Poder reftificar el punto seleccionado, a traves de PopUps.
-Video de la Parte Obligatoria y Opcional: https://www.youtube.com/watch?v=VAMEQAYUNdA
 [Video de la Parte Obligatoria y Opcional](https://www.youtube.com/watch?v=VAMEQAYUNdA "Video Parte Obligatoria")
