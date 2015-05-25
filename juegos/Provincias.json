@@ -1,0 +1,34 @@
+{ "type": "FeatureCollection",
+
+    "features": [
+    
+        { "type": "Feature",
+          "geometry": {"coordinates": [40, -2
+]},
+          "properties": {"name": "Cuenca"}
+        },
+        
+        { "type": "Feature",
+          "geometry": {"coordinates": [37.178056, -3.600833
+]},        
+          "properties": {"name": "Granada"}
+        },
+        
+        { "type": "Feature",
+          "geometry": {"coordinates": [42.75, -7.883333]},        
+          "properties": {"name": "Galicia"}
+        },
+        
+        { "type": "Feature",
+          "geometry": {"coordinates": [36.516667, -6.283333
+]},        
+          "properties": {"name": "Cadiz"}
+        },
+        
+        { "type": "Feature",
+          "geometry": {"coordinates": [37.986111, -1.130278
+]},        
+          "properties": {"name": "Murcia"}
+        }
+    ]   
+}

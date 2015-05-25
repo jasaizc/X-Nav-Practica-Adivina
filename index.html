@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <title>¿Donde Estoy?</title>    
+
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+         <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <link href="css/TiposCss.css" rel="stylesheet">
+
+</head>
+<body>
+
+ <div id="wrapper">
+        <div class="overlay"></div>
+    
+        <!-- Sidebar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-nav">
+                <li class="sidebar-brand">
+                    <p>
+                      OPCIONES JUEGO
+                    </p>
+                </li>
+
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ciudades <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li class="dropdown-header"></li>
+                    <li><a id = "CiudadesFacil">Facil</a></li>
+                    <li><a id = "CiudadesIntermedio">Intermedio</a></li>
+                    <li><a id = "CiudadesDificil">Dificil</a></li>
+                  </ul>
+                </li>
+                    <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Paises <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li class="dropdown-header"></li>
+                    <li><a id = "PaisesFacil">Facil</a></li>
+                    <li><a id = "PaisesIntermedio">Intermedio</a></li>
+                    <li><a id = "PaisesDificil">Dificil</a></li>
+                  </ul>
+                </li>
+                    <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Provincias Españolas <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li class="dropdown-header"></li>
+                    <li><a id = "ProvinciasFacil">Facil</a></li>
+                    <li><a id = "ProvinciasIntermedio">Intermedio</a></li>
+                    <li><a id = "ProvinciasDificil">Dificil</a></li>
+                  </ul>
+                </li>
+ <li class="sidebar-brand">
+                    <p>
+                      OPCIONES SALIDA
+                    </p>
+                </li>
+                 <li>
+                    <a id = "PararJuego">Salir Del Juego</a>
+                </li>
+            </ul>
+        </nav>
+                <div id="page-content-wrapper">
+            <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+    			<span class="hamb-middle"></span>
+				<span class="hamb-bottom"></span>
+            </button>
+        </div>
+        
+
+        <div id = "PantallaInicio" class="col-md-12" >
+             
+       </div>
+    <div id = "TextoInicio" class="site-wrapper">
+        <div id = "caja" class="col-md-12"style="text-align:center" >
+            <h1 id="texto">  ¿DONDE ESTOY?  <h1>
+            <p id="texto"> ¿Podras saber donde me encuetro? Elige la categoria del juego y dificultad y empieza la busqueda<p>
+        </div>
+    </div>
+<div id = "contenedor"  class="row">
+     <div id = "Fotos"class=" col-md-6">
+        <img id="imagen1" src="#"  style="display:none" >    
+    </div>
+    
+    <div id="map"  class="col-md-6"></div>
+        </div> 
+     <div id="history" class = "col-md-6"><h3>Historial de Partidas:</h3> </div>
+</div>
+             
+  
+  
+ <footer>          
+            <div class="container" id="pie" >
+                <div class="row">
+                    <div class="col-md-12">
+                        <hr>
+                        <p style="text-align:center">© Copyright  2015</p>
+                        <p style="text-align:center">Jesus Alberto Saiz Cano - DAT -</p>
+                    </div>
+                </div>
+            </div>
+        </footer> 
+        
+    <!--    SCRIPTS       -->  
+   
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.3.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootlint/0.10.0/bootlint.min.js"></script>
+    <script src="js/jquery.js" ></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/geo.js"></script>
+      <script src="js/adivina.js"></script> 
+
+        
+        
+        </body>
+</html>

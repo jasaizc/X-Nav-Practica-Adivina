@@ -1,0 +1,29 @@
+{ "type": "FeatureCollection",
+
+    "features": [  
+        { "type": "Feature",
+          "geometry": {"coordinates": [55.7525, 37.623086]},                 
+          "properties": {"name": "Moscu"}
+        },
+        
+        { "type": "Feature",
+          "geometry": {"coordinates": [32.05, -118.25]},                 
+          "properties": {"name": "Los Angeles"}
+        },
+        
+        { "type": "Feature",
+          "geometry": {"coordinates": [-33.869444, 151.208333]},     	     "properties": {"name": "Sidney"}
+        },
+        
+        { "type": "Feature",
+          "geometry": {"coordinates": [-34.599722, -58.381944]},            
+          "properties": {"name": "Buenos Aires"}
+        },
+        
+        { "type": "Feature",
+          "geometry": {"coordinates": [53.3434, -6.26761 ]},        
+          "properties": {"name": "Dublín"}
+        }
+    ]   
+}
+
